@@ -1,0 +1,25 @@
+{
+  "name": "stats",
+  "version": "0.0.0",
+  "authors": [
+    "ilkkah <ilkkah@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.3.6",
+    "queue-async": "~1.0.4",
+    "topojson": "~1.4.1",
+    "d3-geo-projection": "git@github.com:d3/d3-geo-projection.git#~0.2.6",
+    "csv2json": "~0.0.4",
+    "d3-tablesort": "~0.0.3",
+    "d3-tip": "Caged/d3-tip#~0.6.0"
+  }
+}
