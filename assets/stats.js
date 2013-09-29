@@ -441,6 +441,7 @@ var details = (function() {
         details_el.classed('show', true);
     }
 
+    details_el.append('div').on('click', details.hide).classed('close', true);
     return details;
 }());
 
