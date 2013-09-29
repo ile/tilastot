@@ -445,6 +445,35 @@ var details = (function() {
     return details;
 }());
 
+
+// spinner
+(function() {
+
+    var opts = {
+      lines: 13, // The number of lines to draw
+      length: 27, // The length of each line
+      width: 13, // The line thickness
+      radius: 30, // The radius of the inner circle
+      corners: 1, // Corner roundness (0..1)
+      rotate: 0, // The rotation offset
+      direction: 1, // 1: clockwise, -1: counterclockwise
+      color: '#000', // #rgb or #rrggbb or array of colors
+      speed: 1, // Rounds per second
+      trail: 52, // Afterglow percentage
+      shadow: true, // Whether to render a shadow
+      hwaccel: true, // Whether to use hardware acceleration
+      className: 'spinner', // The CSS class to assign to the spinner
+      zIndex: 2e9, // The z-index (defaults to 2000000000)
+      top: 'auto', // Top position relative to parent in px
+      left: 'auto' // Left position relative to parent in px
+    };
+
+    var spin_target = d3.select('body').append('div').classed('spinner', true);
+    var spinner = new Spinner(opts).spin(spin_target.node());
+
+    return spinner;
+}());
+
 queue()
     .defer(d3.json, "data/kunnat.topo.json")
     .defer(d3.tsv, "data/koodit.tsv", function(d) {
@@ -457,6 +486,7 @@ queue()
     .await(ready);
 
 function ready(error, collection) {
+    d3.select('div.spinner').remove();
     map = new Map(collection);
     parse_data();
     create_quantize_funtions();
