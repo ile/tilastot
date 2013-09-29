@@ -1,0 +1,27 @@
+{
+  "name": "d3-tablesort",
+  "main": "d3-tablesort.js",
+  "version": "0.0.4",
+  "homepage": "https://github.com/ile/d3-tablesort",
+  "authors": [
+    "ilkkah <ilkkah@gmail.com>"
+  ],
+  "description": "Sortable, scrollable table for D3",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.4",
+    "commit": "f61bf563c3a4cea5743cb1bd09e7154dcac475c5"
+  },
+  "_source": "git://github.com/ile/d3-tablesort.git",
+  "_target": "~0.0.3",
+  "_originalSource": "d3-tablesort"
+}
