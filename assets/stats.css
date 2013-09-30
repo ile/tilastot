@@ -1,7 +1,7 @@
 
 body > #wrap { height: auto;  }
 body {
-    font-family: Helvetica, Arial;
+    font-family: Arial, Helvetica;
     font-size: 14px;
     background: #fafafa;
 }
@@ -82,6 +82,9 @@ svg {
     padding: 3px;
 }
 
+.body-table {
+    border-spacing: 0px;
+}
 .body-table tr:hover {
     background: #26a !important;
     color:#fff;
@@ -113,9 +116,9 @@ svg {
 
 h1, h2 {
     margin: 0 0 50px 0;
-    font-size: 44px;
+    font-size: 49px;
     font-weight: bold;
-    color: #b3b3b3;
+    color: #888;
     color: rgba(255, 255, 255, 0.35);
     text-shadow: -1px -1px rgba(0, 0, 0, 0.7);
     -webkit-text-rendering: optimizeLegibility;
@@ -123,6 +126,7 @@ h1, h2 {
     -ms-text-rendering: optimizeLegibility;
     -o-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
+    -wexbkit-transform: rotate3d(0,0,-1,5deg);
 }
 
 h2 {
@@ -140,6 +144,7 @@ footer a, footer a:hover {
 }
 
 header {
+    margin-left: 50px;
     padding-top: 30px;
 }
 footer p {
