@@ -116,8 +116,8 @@ h1, h2 {
     font-size: 44px;
     font-weight: bold;
     color: #b3b3b3;
-    color: rgba(255, 255, 255, 0.3);
-    text-shadow: -1px -1px rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.35);
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.7);
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
@@ -170,6 +170,7 @@ footer {
 
 select {
     width:  100%;
+    border: solid 1px #aaa;
 }
 
 .d3-tip {
