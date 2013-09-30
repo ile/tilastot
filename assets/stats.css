@@ -16,6 +16,7 @@ svg {
     max-width: 600px;
     text-align: left;
     padding-bottom: 40px;
+    position: absolute;
 }
 
 #bg {
