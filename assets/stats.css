@@ -17,6 +17,7 @@ svg {
     text-align: left;
     padding-bottom: 40px;
     position: absolute;
+    z-index: 1;
 }
 
 #bg {
