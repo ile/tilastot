@@ -7,7 +7,11 @@ Statistics visualization of Finland.
 
 Try it at http://ile.github.io/tilastot/
 
-Data from 
+## License
+
+`assets` folder not open sourced
+
+Other files licensed by:
   - http://www.maanmittauslaitos.fi/ 
   - http://www.stat.fi/ 
     - Väestön syntyperä taustamaanosittain sukupuolen mukaan alueittain 1990 - 2012 http://193.166.171.75/database/StatFin/vrm/vaerak/vaerak_fi.asp
