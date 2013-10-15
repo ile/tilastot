@@ -9,7 +9,7 @@ Try it at http://ile.github.io/tilastot/
 
 ## License
 
-`assets` folder not open sourced
+`assets` folder not open sourced.
 
 Other files licensed by:
   - http://www.maanmittauslaitos.fi/ 
